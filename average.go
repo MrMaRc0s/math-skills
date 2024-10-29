@@ -1,9 +1,16 @@
 package main
 
+import "math"
+
 func calculateAverage(numbers []int) int {
-	total := 0
+	total := 0.0
 	for i := 0; i < len(numbers); i++ {
-		total += numbers[i]
+		total += float64(numbers[i])
 	}
-	return total / len(numbers)
+
+	// Calculate the average first
+	average := total / float64(len(numbers))
+
+	// Then round the average
+	return int(math.Round(average))
 }
