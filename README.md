@@ -24,8 +24,8 @@ This program reads a text file containing integers (one per line), computes vari
 
 1. Clone the repository or download the source code:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://platform.zone01.gr/git/cmarkos/math-skills.git
+   cd math-skills
 
 ## Usage
 
