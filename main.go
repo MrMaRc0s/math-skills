@@ -20,10 +20,8 @@ func main() {
 	numbers := strToInt(file)
 	numbers = SortIntegerTable(numbers)
 
-	fmt.Println(numbers)
-	fmt.Println(calculateAverage(numbers))
-
-	fmt.Println(calculateMedian(numbers))
-	fmt.Println(calculateVariance(numbers))
-	fmt.Println(calculateStandardDeviation(numbers))
+	fmt.Println("Average: ", calculateAverage(numbers))
+	fmt.Println("Median: ", calculateMedian(numbers))
+	fmt.Println("Variance: ", calculateVariance(numbers))
+	fmt.Println("Standard Deviation: ", calculateStandardDeviation(numbers))
 }
